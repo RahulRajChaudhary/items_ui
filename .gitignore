@@ -8,7 +8,4 @@ next-env.d.ts
 .env*.local
 
 # working material that must not be pushed
-handoff/
 .claude/
-# duplicate of public/icons (the app serves the copy in public/)
-brand/
