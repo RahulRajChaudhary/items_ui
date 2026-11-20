@@ -1,0 +1,14 @@
+# dependencies and build output
+node_modules
+.next
+next-env.d.ts
+*.tsbuildinfo
+
+# local environment
+.env*.local
+
+# working material that must not be pushed
+handoff/
+.claude/
+# duplicate of public/icons (the app serves the copy in public/)
+brand/
